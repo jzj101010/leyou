@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_launcher_background"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_launcher_background"/>
+     <LinearLayout
+         android:paddingLeft="15dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <TextView
+             android:textSize="12sp"
+             android:layout_weight="1"
+             android:text="姓名"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="12sp"
+             android:layout_weight="1"
+             android:text="累计金额"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+
+     </LinearLayout>
+    </LinearLayout>
+
+<View
+    android:layout_marginTop="15dp"
+    android:layout_height="5dp"
+    style="@style/viewHorizontal"
+   />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+           style="@style/textViewTopImg"
+            android:text="账单"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="已领优惠劵"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="我的收藏"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="浏览记录"
+            />
+    </LinearLayout>
+
+   <View
+        android:layout_height="5dp"
+        style="@style/viewHorizontal"
+        />
+    <LinearLayout
+        style="@style/textViewL_R_Item_li">
+
+        <TextView
+            style="@style/textViewL_R_Item_LTv"
+            android:text="乐尤积分" />
+        <TextView
+            style="@style/textViewL_R_Item_RTv"
+            android:text="1224443积分"
+        />
+
+    </LinearLayout>
+    <View
+        android:layout_height="5dp"
+        style="@style/viewHorizontal"
+        />
+    <LinearLayout
+        style="@style/textViewL_R_Item_li">
+
+        <TextView
+            style="@style/textViewL_R_Item_LTv"
+            android:text="我的订单" />
+        <TextView
+            style="@style/textViewL_R_Item_RTv_arrow"
+            android:text="1224443积分"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="代付款"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="代发货"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="待收货"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="评价积分"
+            />
+        <TextView
+            style="@style/textViewTopImg"
+            android:text="退款售后"
+            />
+    </LinearLayout>
+    <View
+        android:layout_height="5dp"
+        style="@style/viewHorizontal"
+        />
+    <LinearLayout
+        style="@style/textViewL_R_Item_li">
+
+        <TextView
+            style="@style/textViewL_R_Item_LTv"
+            android:text="推荐有礼" />
+        <TextView
+            style="@style/textViewL_R_Item_RTv_arrow"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_height="5dp"
+        style="@style/viewHorizontal"
+        />
+    <LinearLayout
+        style="@style/textViewL_R_Item_li">
+
+        <TextView
+            style="@style/textViewL_R_Item_LTv"
+            android:text="客服与反馈" />
+        <TextView
+            style="@style/textViewL_R_Item_RTv_arrow"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_height="5dp"
+        style="@style/viewHorizontal"
+        />
+    <LinearLayout
+        style="@style/textViewL_R_Item_li">
+
+        <TextView
+            style="@style/textViewL_R_Item_LTv"
+            android:text="关于我们" />
+        <TextView
+            style="@style/textViewL_R_Item_RTv_arrow"
+            android:text=""
+            />
+
+    </LinearLayout>
+</LinearLayout>

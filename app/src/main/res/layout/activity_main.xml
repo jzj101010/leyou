@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.hxb.easynavigition.view.EasyNavigitionBar
+        android:id="@+id/navigitionBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.hxb.easynavigition.view.EasyNavigitionBar>
+
+    <TextView
+        android:background="#50000000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/tv_login"
+        android:text="授权登陆"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
